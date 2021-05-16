@@ -1,0 +1,7 @@
+<div class="main">
+    <div class="d-flex justify-content-center container">
+        <button type="button" (click)="goToAddUser()" class="btn btn-light mt-1 w-100" *ngIf="!esAltaUsuario"><strong>+ Nuevo Usuario</strong></button>
+    </div>
+    <app-sign-up (eventGoBeginning)="onChangeAltaUsuario($event)" [fromAddUser]="esAltaUsuario" *ngIf="esAltaUsuario"></app-sign-up>
+    <app-detalle-usuarios (eventManageAccount)="manageAccount($event)" [listaUsuarios]="listaUsuarios" *ngIf="!esAltaUsuario"></app-detalle-usuarios>
+</div>

@@ -1,0 +1,39 @@
+.top-header {
+    width: 35vh;
+    height: 10vh;
+}
+
+.bottom-header {
+    width: 75vh;
+    height: 10vh;
+}
+
+.front {
+    width: 100%;
+    height: 60vh;
+    display: block;
+}
+
+.jumbotron {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://upload.wikimedia.org/wikipedia/commons/0/0f/Cl%C3%ADnica_UDD.jpg");
+}
+
+.no-gutters {
+    background-color: aliceblue;
+}
+
+.container {
+    opacity: 1;
+}
+
+.carousel-caption {
+    color: black;
+    background-color: grey;
+    opacity: .8;
+}

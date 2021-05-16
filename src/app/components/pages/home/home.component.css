@@ -1,0 +1,11 @@
+.img-container-block {
+    text-align: center;
+    position: absolute;
+    left: 85vh;
+    top: 45vh;
+}
+
+.img-container-inline {
+    text-align: center;
+    display: block;
+}
